@@ -8,14 +8,9 @@ This project allows users to graph functions, visualize multivariable surfaces, 
 
 ## Live Demo
 
-If deployed on Streamlit Community Cloud, your app link will look like:
-
 ```txt
-https://your-app-name.streamlit.app
+https://fcnvis.streamlit.app
 ```
-
-Replace this section with your actual deployed link after deployment.
-
 ---
 
 ## Project Overview
@@ -500,7 +495,7 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 cd YOUR_REPOSITORY_NAME
 ```
 
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub username and repository name.
+`patientDreamer` and `Interactive-Function-Visualizer` with your actual GitHub username and repository name.
 
 ---
 
@@ -615,14 +610,8 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 git push -u origin main
 ```
 
-Replace the remote URL with your actual GitHub repository URL.
 
 ---
-
-## Suggested `.gitignore`
-
-Create a `.gitignore` file with:
-
 ```gitignore
 .venv/
 __pycache__/
@@ -702,27 +691,9 @@ For formal mathematical proofs or high-stakes numerical work, verify results usi
 
 ---
 
-## License
-
-You may choose a license depending on how you want others to use your project.
-
-Recommended beginner-friendly option:
-
-```txt
-MIT License
-```
-
-If you add a license, create a separate file named:
-
-```txt
-LICENSE
-```
-
----
-
 ## Author
 
-Created by Hongran Wang.
+Created by Jack Jiang.
 
 ---
 

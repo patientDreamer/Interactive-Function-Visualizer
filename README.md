@@ -1,4 +1,4 @@
-# Interactive Function Illustrator
+# Interactive Function Visualizer
 
 A mini Desmos-like mathematical visualization app built with **Python**, **Streamlit**, **Plotly**, **SymPy**, **NumPy**, and **Pandas**.
 
@@ -8,14 +8,27 @@ This project allows users to graph functions, visualize multivariable surfaces, 
 
 ## Live Demo
 
+The app is deployed here:
+
 ```txt
 https://fcnvis.streamlit.app
 ```
+
+---
+
+## Repository
+
+GitHub repository:
+
+```txt
+https://github.com/patientDreamer/Interactive-function-visualizer
+```
+
 ---
 
 ## Project Overview
 
-The goal of this project is to create an interactive mathematical function illustrator that behaves similarly to a lightweight version of Desmos.
+The goal of this project is to create an interactive mathematical function visualizer that behaves similarly to a lightweight version of Desmos.
 
 The app supports:
 
@@ -476,7 +489,7 @@ This project uses:
 Recommended repository structure:
 
 ```txt
-interactive-function-illustrator/
+Interactive-function-visualizer/
 │
 ├── main.py
 ├── requirements.txt
@@ -491,11 +504,9 @@ interactive-function-illustrator/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/patientDreamer/Interactive-function-visualizer.git
+cd Interactive-function-visualizer
 ```
-
-`patientDreamer` and `Interactive-Function-Visualizer` with your actual GitHub username and repository name.
 
 ---
 
@@ -515,13 +526,17 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-If PowerShell blocks activation, you may need to run:
+If PowerShell blocks activation, run:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-Then try activating again.
+Then activate the virtual environment again:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
 
 ---
 
@@ -535,7 +550,7 @@ pip install -r requirements.txt
 
 ## Requirements File
 
-Your `requirements.txt` should contain:
+The `requirements.txt` file should contain:
 
 ```txt
 streamlit
@@ -549,7 +564,7 @@ pandas
 
 ## Run Locally
 
-If your app file is named `main.py`, run:
+If the app file is named `main.py`, run:
 
 ```bash
 streamlit run main.py
@@ -561,9 +576,9 @@ Or use:
 python -m streamlit run main.py
 ```
 
-The second command is especially helpful if your terminal does not recognize the `streamlit` command directly.
+The second command is especially helpful if the terminal does not recognize the `streamlit` command directly.
 
-After running the command, Streamlit should open the app in your browser.
+After running the command, Streamlit should open the app in the browser.
 
 The local URL usually looks like:
 
@@ -575,43 +590,42 @@ http://localhost:8501
 
 ## Deploy to Streamlit Community Cloud
 
-You can deploy this project for free using Streamlit Community Cloud.
-
-### Steps
-
-1. Push your project to GitHub.
-2. Go to Streamlit Community Cloud.
-3. Sign in with your GitHub account.
-4. Click **New app**.
-5. Select your repository.
-6. Select the correct branch, usually `main`.
-7. Set the main file path to:
+This project is deployed on Streamlit Community Cloud at:
 
 ```txt
-main.py
+https://fcnvis.streamlit.app
 ```
 
-8. Click **Deploy**.
+Deployment setup:
 
-After deployment, Streamlit will create a public URL for your app.
+```txt
+Repository: https://github.com/patientDreamer/Interactive-function-visualizer
+Branch: main
+Main file path: main.py
+App URL: https://fcnvis.streamlit.app
+```
 
 ---
 
 ## GitHub Upload Guide
 
-If you are uploading this project to GitHub for the first time, use these commands:
+Use these commands to upload the project to GitHub:
 
 ```bash
 git init
 git add .
-git commit -m "Initial commit: interactive function illustrator"
+git commit -m "Initial commit: interactive function visualizer"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git remote add origin https://github.com/patientDreamer/Interactive-function-visualizer.git
 git push -u origin main
 ```
 
-
 ---
+
+## Suggested `.gitignore`
+
+Create a `.gitignore` file with:
+
 ```gitignore
 .venv/
 __pycache__/
@@ -691,9 +705,15 @@ For formal mathematical proofs or high-stakes numerical work, verify results usi
 
 ---
 
+## License
+
+MIT License
+
+---
+
 ## Author
 
-Created by Jack Jiang.
+Created by **Jack Jiang**.
 
 ---
 

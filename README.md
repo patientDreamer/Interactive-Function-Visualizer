@@ -707,7 +707,7 @@ For formal mathematical proofs or high-stakes numerical work, verify results usi
 
 ## License
 
-MIT License
+Eclipse License
 
 ---
 
